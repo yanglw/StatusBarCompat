@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="AppTheme.AndroidColorPrimaryDark">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+    </style>
+
+    <style name="AppTheme.ColorPrimaryDark">
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCyan</item>
+    </style>
+
+    <style name="AppTheme.AndroidStatusBarColor">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+    </style>
+
+    <style name="AppTheme.WindowTranslucentStatus">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+    </style>
+
+    <style name="AppTheme.StatusBarCompat">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+    </style>
+
+    <style name="AppTheme.StatusBarCompatTransparent">
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+    </style>
+
+    <style name="AppTheme.StatusBarCompatDrawerLayout">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+    </style>
+
+    <style name="AppTheme.Default.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.Default.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

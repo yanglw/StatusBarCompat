@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.yanglw.statusbar.samples">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AndroidColorPrimaryDarkActivity"
+            android:label="android:colorPrimaryDark\n(only for sdk >= 5.0)"
+            android:theme="@style/AppTheme.AndroidColorPrimaryDark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorPrimaryDarkActivity"
+            android:label="colorPrimaryDark\n(only for sdk >= 5.0)"
+            android:theme="@style/AppTheme.ColorPrimaryDark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StatusBarColorActivity"
+            android:label="android:statusBarColor\n(only for sdk >= 5.0)"
+            android:theme="@style/AppTheme.AndroidStatusBarColor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WindowTranslucentStatusActivity"
+            android:label="android:windowTranslucentStatus\n(only for sdk >= 4.4)"
+            android:theme="@style/AppTheme.WindowTranslucentStatus">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StatusBarCompatActivity"
+            android:label="StatusBarCompat"
+            android:theme="@style/AppTheme.StatusBarCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StatusBarCompatTransparentActivity"
+            android:label="StatusBarCompatTransparent"
+            android:theme="@style/AppTheme.StatusBarCompatTransparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DrawerLayoutActivity"
+            android:label="DrawerLayout"
+            android:theme="@style/AppTheme.StatusBarCompatDrawerLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
